@@ -232,7 +232,6 @@ _EOH_
         log_info "DB `#{db_name}' already exists"
       else
         log_error("Error creating DB `#{db_name}'", r)
-        next
       end
     else
       log_info "Created DB named `#{db_name}'"
