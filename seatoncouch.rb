@@ -676,6 +676,7 @@ _EOH_
 
 
   def self.to_json(json_obj)
+    return "" if json_obj == ""
     JSON.pretty_generate json_obj
   end
 
